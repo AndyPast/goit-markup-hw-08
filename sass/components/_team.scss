@@ -1,0 +1,45 @@
+/* Наша команда */
+
+.section-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--buttons-color);
+}
+
+.cards {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 1170px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  margin-top: 30px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.text-job {
+  font-size: 16px;
+  line-height: 1.9;
+  font-style: normal;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 16px;
+  color: var(--contacts-color);
+}

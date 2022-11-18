@@ -1,0 +1,56 @@
+/* Описание преимуществ */
+
+.Benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.Benefits__item {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Benefits__list {
+  &::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background: var(--buttons-color);
+    background-image: url(../images/attentionmin.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
+  }
+}
+
+.Benefits__list:nth-child(2) {
+  &::before {
+    background-image: url(../images/oclockmin.svg);
+  }
+}
+
+.Benefits__list:nth-child(3) {
+  &::before {
+    background-image: url(../images/planningmin.svg);
+  }
+}
+
+.Benefits__list:nth-child(4) {
+  &::before {
+    background-image: url(../images/technologymin.svg);
+  }
+}
+
+.Benefits__title {
+  font-weight: bold;
+  line-height: 1.14;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.Benefits__text {
+  font-size: 14px;
+  line-height: 1.72;
+  color: var(--contacts-color);
+}

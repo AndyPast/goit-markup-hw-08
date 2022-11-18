@@ -1,0 +1,44 @@
+.site {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-right: 93px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: var(--secondary-color);
+
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+.site-logo {
+  &:hover {
+    color: var(--secondary-color);
+  }
+}
+
+.site-name {
+  font-family: "Raleway";
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(--transition-timing-functio);
+}
+
+.site-name {
+  &:hover {
+    color: var(--secondary-color);
+  }
+}

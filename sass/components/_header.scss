@@ -1,0 +1,42 @@
+/* Хэдер */
+
+.header {
+  background-color: var(--background-color);
+  border: 1px solid rgba(236, 236, 236, 1);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Навигация */
+
+.nav-link {
+  font-weight: 500px;
+  letter-spacing: 2%;
+}
+
+.header .nav-link.current.studio,
+.header .nav-link.current.studio {
+  &:hover,
+  &:focus {
+    color: var(--secondary-color);
+  }
+}
+
+.header .nav-link,
+.header .nav-link {
+  &:hover,
+  &:focus {
+    color: var(--secondary-color);
+  }
+}
+
+.link-mail {
+  text-decoration: none;
+  color: var(--contacts-color);
+}
